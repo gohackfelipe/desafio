@@ -7,8 +7,8 @@ app_name = 'comentarios'
 app = Flask(app_name)
 app.debug = True
 
-comments = {}
 
+comments = {}
 
 @app.route('/api/comment/new', methods=['POST'])
 def api_comment_new():
